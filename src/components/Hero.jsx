@@ -34,11 +34,9 @@ const Hero = () => {
                 Delivery.
                 </span>
             </h1>
-            <p className="mt-5 text-gray-400 text-lg">
+            <p className="mt-5 text-gray-400 text-lg" style={{width : "40ch"}}>
               Best cooks and best delivery guys all at your
-              <br />
               service. Hot tasty food will reach you in 60
-              <br />
               minutes.
             </p>
 
