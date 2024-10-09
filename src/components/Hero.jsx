@@ -24,7 +24,7 @@ const Hero = () => {
                     className="text-3xl md:text-4xl lg:text-5xl font-bold"
                     style={{ fontWeight: "900" }}
                   >
-                    We're <span style={{ color: "#F54748" }}>Serious</span> For
+                    We{"'"}re <span style={{ color: "#F54748" }}>Serious</span> For
                     <br />
                     <span style={{ color: "#F54748" }}>Food</span> &{" "}
                     <span style={{ color: "#FDC55E" }}>Delivery.</span>
@@ -89,7 +89,7 @@ const Hero = () => {
                   <div className="flex items-center mt-5">
                     <a
                       href="#"
-                      style={{ backgroundColor: "#F65F5F" }}
+                      style={{ backgroundColor: "#F65F5F"}}
                       className="sm:text-sm font-semibold leading-6 px-4 py-3 rounded-full text-gray-900"
                     >
                       Download App
@@ -100,7 +100,7 @@ const Hero = () => {
                           backgroundColor: "transparent", // Ensure the container has no background
                           boxShadow:
                             "0px 20px 60px 0px rgba(223, 105, 81, 0.8)", // Shadow effect
-                          borderRadius: "50%", // If you want a circular shadow
+                            borderRadius: "50%", // If you want a circular shadow
                           display: "inline-block", // Contain the image within a block element
                         }}
                         className="ml-10"
@@ -109,9 +109,9 @@ const Hero = () => {
                           src={PlayBtn}
                           alt="Play Button"
                           className="w-14 h-14"
-                        />
+                          />
                       </div>
-                    </a>
+                          </a>
                     <p className="text-md" style={{ marginLeft: "0.5rem" }}>
                       Watch Video
                     </p>
@@ -135,7 +135,7 @@ const Hero = () => {
                   src={MobilesizePizza}
                   className="block lg:hidden w-full rounded-xl"
                   style={{
-                    height: "400px",
+                    height: "350px",
                     width: "500px",
                     marginTop: "-4rem",
                   }}
