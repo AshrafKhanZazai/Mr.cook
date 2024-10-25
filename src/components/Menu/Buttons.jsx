@@ -17,7 +17,7 @@ import Breakfast from "./BreakFast/Breakfast"
     <div className="text-gray-300">
       <h1
         className="text-center mx-auto"
-        style={{ fontSize: "50px", fontWeight: "700", width: "25ch" }}
+        style={{ fontSize: "50px", fontWeight: "700", width: "20ch" }}
       >
         <span className="text-[#cb3939]">Menu</span> That{" "}
         <span className="text-[#e1bf57]">Always </span>
