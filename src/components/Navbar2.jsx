@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog, DialogPanel } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 // import BackbgroundPic from './images/Group 8477.png'
-import logo from "./images/LOGO.png"
+import logo from "/public/images/LOGO.png"
 
 const navigation = [
   { name: 'Todays Special Offers', href: '#' },
@@ -17,7 +17,7 @@ export default function Example() {
   return (
     <div className="bg-black font-sofia">
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
+        <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8 lg:mx-auto max-w-[1280px]">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
@@ -47,7 +47,7 @@ export default function Example() {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" style={{backgroundColor : "#F65F5F"}} className="text-sm font-semibold leading-6 px-4 py-2 rounded-full text-gray-900">
-              Download App 
+              Contact Us
               {/* <span aria-hidden="true">&rarr;</span> */}
             </a>
           </div>
@@ -92,7 +92,7 @@ export default function Example() {
                     href="#"
                     className="-mx-3 block btn-red-300 text-base font-semibold leading-7 px-4 py-3 rounded-full text-gray-900 hover:bg-rose-700"
                   >
-                    Download App
+                    Contact Us
                   </a>
                 </div>
               </div>

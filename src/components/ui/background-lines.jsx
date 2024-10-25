@@ -1,4 +1,4 @@
-import bgimg from "../images/Group 8477.png"
+import bgimg from "/public/images/Group 8477.png"
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 

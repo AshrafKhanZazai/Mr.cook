@@ -1,9 +1,9 @@
-import RightImg from "./images/Group 8482.svg";
-import RightImgSmall from "./images/Small hero img.svg";
-import rosemary from "./images/rosemary.png";
-import Online from "./images/image 15.svg";
-import deleivery from "./images/image 17.svg";
-import Other from "./images/image 18.svg";
+import RightImg from "/public/images/Group 8482.svg";
+import RightImgSmall from "/public/images/Small hero img.svg";
+// import rosemary from "/public/images/rosemary.png";
+import Online from "/public/images/image 15.svg";
+import deleivery from "/public/images/image 17.svg";
+import Other from "/public/images/image 18.svg";
 
 const links = [
   { href: "#!", text: "Online Orders", imgSrc: Online },
@@ -17,8 +17,14 @@ const links = [
 const Servies = () => {
   return (
     <>
-    <img className="hidden lg:block" style={{ marginLeft: "91%" }} src={rosemary} alt="" />
+  
+    <section className="relative mt-24">
+    {/* <img className="hidden lg:block" style={{marginLeft : '91%' }} src={rosemary} alt="" /> */}
+  
+</section>
 
+    
+<div className="mx-auto max-w-[1280px] lg:justify-center">
 <section className="relative">
   {/* Large Screen Image */}
   <img
@@ -85,11 +91,37 @@ const Servies = () => {
     <div className="grid grid-cols-1 gap-x-4 mt-5 max-w-96">
       {links.map((link, index) => (
         <div key={index} className="flex items-center mb-4">
-          <a href={link.href}>
-            <div className="bg-transparent rounded-full inline-block mr-2">
-              <img src={link.imgSrc} alt={link.text} className="w-7 h-7" />
+          {/* <a href={link.href}>
+            <div 
+             style={{
+              backgroundColor: "transparent", // Ensure the container has no background
+              boxShadow:
+                "0px 20px 60px 0px rgba(223, 105, 81, 0.8)", // Shadow effect
+                borderRadius: "70%", // If you want a circular shadow
+              display: "inline-block", // Contain the image within a block element
+            }}
+            className="bg-transparent rounded-full inline-block mr-2">
+              <img
+              src={link.imgSrc} alt={link.text} className="w-7 h-7" />
             </div>
-          </a>
+          </a> */}
+
+<a href={link.href}>
+  <div
+    className="inline-block mr-2"
+  >
+    <img
+      src={link.imgSrc}
+      alt={link.text}
+      className="w-7 h-7"
+    />
+  </div>
+</a>
+
+
+
+
+
           <p className="text-sm">{link.text}</p>
         </div>
       ))}
@@ -103,7 +135,7 @@ const Servies = () => {
     </a>
   </div>
 </div>
-
+</div>
 
 
 

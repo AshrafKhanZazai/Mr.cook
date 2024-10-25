@@ -1,17 +1,17 @@
-import heartpic from "./images/Group 8426.png";
-import Pizza from "./images/Pizza.png";
-import MobilesizePizza from "./images/Mobile size pizza.png";
+import heartpic from "/public/images/Group 8426.png";
+import Pizza from "/public/images/Pizza.png";
+import MobilesizePizza from "/public/images/Mobile size pizza.png";
 import "../App.css";
-import PlayBtn from "./images/Play Btn.svg";
+import PlayBtn from "/public/images/Play Btn.svg";
 
 const Hero = () => {
   return (
     <>
-      <div className="pt-12 items-center font-sofia">
+      <div className="pt-24 lg:pt-4 items-center font-sofia">
         <section className="bg-cover bg-center py-32 w-full">
           <div className="container mx-auto text-left text-white relative">
             <div className="flex flex-col-reverse md:flex-row items-center">
-              <div className="w-full md:w-1/2 z-10 mb-12 md:mb-0 mt-12 md:mt-0">
+              <div className="w-full md:w-1/2 z-10 md:mb-0 mt-12 md:mt-0">
                 <div
                   style={{ maxWidth: "7.5rem", backgroundColor: "#f65f5f33" }}
                   className="flex text-gray-200 items-center ml-3 mb-2 p-1 rounded-full"
@@ -21,13 +21,13 @@ const Hero = () => {
                 </div>
                 <div>
                   <h1
-                    className="text-3xl md:text-4xl lg:text-5xl font-bold"
+                    className="text-5xl md:text-4xl lg:text-5xl font-bold"
                     style={{ fontWeight: "900" }}
                   >
-                    We{"'"}re <span style={{ color: "#F54748" }}>Serious</span> For
+                    We{"'"}re <span className="text-[#ec4747]">Serious</span> For
                     <br />
-                    <span style={{ color: "#F54748" }}>Food</span> &{" "}
-                    <span style={{ color: "#FDC55E" }}>Delivery.</span>
+                    <span className="text-[#ec4747]">Food</span> &{" "}
+                    <span className="text-[#ffd455]">Delivery.</span>
                   </h1>
                   <p
                     className="mt-5 text-gray-400 text-lg"
@@ -90,16 +90,16 @@ const Hero = () => {
                     <a
                       href="#"
                       style={{ backgroundColor: "#F65F5F"}}
-                      className="sm:text-sm font-semibold leading-6 px-4 py-3 rounded-full text-gray-900"
+                      className="sm:text-sm font-semibold leading-6 px-7 py-3 rounded-full text-gray-900"
                     >
-                      Download App
+                    Contact Us
                     </a>
                     <a href="#!">
                       <div
                         style={{
                           backgroundColor: "transparent", // Ensure the container has no background
                           boxShadow:
-                            "0px 20px 60px 0px rgba(223, 105, 81, 0.8)", // Shadow effect
+                            "0px 6px 60px 0px rgba(223, 105, 81, 0.8)", // Shadow effect
                             borderRadius: "50%", // If you want a circular shadow
                           display: "inline-block", // Contain the image within a block element
                         }}
